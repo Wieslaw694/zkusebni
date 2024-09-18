@@ -1,0 +1,5 @@
+CREATE TABLE `databaze_pojistencu`.`pojistenci` (
+    `pojistenci_id` INT NOT NULL AUTO_INCREMENT , 
+    `jmeno` VARCHAR(100) NOT NULL , 
+    `prijmeni` VARCHAR(100) NOT NULL , 
+    `datum` DATE NOT NULL , PRIMARY KEY (`pojistenci_id`)) ENGINE = InnoDB;
