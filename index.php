@@ -21,6 +21,9 @@
         require_once('Db.php');
         Db::connect('127.0.0.1', 'databaze_pojistencu', 'root', '');
         $pojistenci = Db::queryAll('SELECT * FROM pojistenci');
+        if(empty($pojistenci)) {
+            echo('V databázi nejsou žádné záznamy.');
+        } else {
         echo('<table>');
             foreach ($pojistenci as $pojistenec) {
             echo('<tr><td>' . htmlspecialchars($pojistenec['jmeno']));
@@ -29,6 +32,7 @@
             echo('</td></tr>');
         }
         echo('</table>');
+        }
     ?>
 
 </body>
