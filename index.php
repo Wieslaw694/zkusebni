@@ -14,7 +14,7 @@
 </head>
 <body>
     <h2>Evidence Pojištěnců</h2>
-    <p><a href="pridej.php">Přidat záznam</a>&nbsp;<a href="odstran.php">Odstraň záznam</a></p>
+    <p><a style="color:green;" href="pridej.php">Přidat záznam</a>&nbsp;<a style="color:red;" href="odstran.php">Odstraň záznam</a></p>
     
     <?php
 
