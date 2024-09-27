@@ -24,7 +24,7 @@
         if(empty($pojistenci)) {
             echo('V databázi nejsou žádné záznamy.');
         } else {
-        echo('<table>');
+        echo('<table><thread><tr><th>Jméno</th><th>Příjmení</th><th>Datum Narození</th></tr></thread>');
             foreach ($pojistenci as $pojistenec) {
             echo('<tr><td>' . htmlspecialchars($pojistenec['jmeno']));
             echo('</td><td>' . htmlspecialchars($pojistenec['prijmeni']));
