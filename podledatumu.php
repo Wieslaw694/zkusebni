@@ -23,7 +23,7 @@
     <form action="" method="post">
         <p>
         Vyberte datum:<br />
-        <input type="date" name="datum">
+        <input type="date" name="datum" required>
         </p>
         <input type="submit" value="Odstraň">
         </form>
