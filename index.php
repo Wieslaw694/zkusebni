@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        table, tr, td {
+        table, tr, td, th {
             border: 1px solid black;
             padding: 5px;
             border-collapse:collapse;
