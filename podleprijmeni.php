@@ -23,7 +23,7 @@
     <form action="" method="post">
         <p>
         Zadejte příjmení:<br />
-        <input type="text" name="prijmeni">
+        <input type="text" name="prijmeni" required>
         </p>
         <input type="submit" value="Odstraň">
         </form>
