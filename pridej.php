@@ -17,7 +17,7 @@
             Db::query('INSERT INTO pojistenci (jmeno, prijmeni, datum) VALUES (?, ?, ?)
             ', $_POST['jmeno'], $_POST['prijmeni'], $datum);
 
-            echo('<p style="font-color:green;">Záznam byl úspěšně přidán.</p>');
+            echo('<p style="color:green;">Záznam byl úspěšně přidán.</p>');
         }
         ?>
 
