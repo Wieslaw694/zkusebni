@@ -24,15 +24,15 @@
     <form action="" method="post">
         <p>
         Jméno:<br />
-        <input type="text" name="jmeno" requred>
+        <input type="text" name="jmeno" required>
         </p>
         <p>
         Příjmení:<br />
-        <input type="text" name="prijmeni" requred>
+        <input type="text" name="prijmeni" required>
         </p>
         <p>
         Datum narození:<br />
-        <input type="date" name="datum" requred>
+        <input type="date" name="datum" required>
         </p>
         <input type="submit" value="Přidej">
     </form>
