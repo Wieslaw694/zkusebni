@@ -14,7 +14,7 @@
         Db::connect('127.0.0.1', 'databaze_pojistencu', 'root', '');
         $prijmeni = $_POST['prijmeni'];
         if ($_POST) {
-            Db::query("DELETE FROM pojistenci WHERE jmeno LIKE '$prijmeni'");
+            Db::query("DELETE FROM pojistenci WHERE prijmeni LIKE '$prijmeni'");
 
             echo('<p>Záznam byl úspěšně odstraněn.</p>');
         }
