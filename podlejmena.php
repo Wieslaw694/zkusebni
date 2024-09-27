@@ -23,7 +23,7 @@
     <form action="" method="post">
         <p>
         Zadejte jméno:<br />
-        <input type="text" name="jmeno">
+        <input type="text" name="jmeno" required>
         </p>
         <input type="submit" value="Odstraň">
         </form>
