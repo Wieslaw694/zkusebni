@@ -16,7 +16,7 @@
         if ($_POST) {
             Db::query("DELETE FROM pojistenci WHERE jmeno LIKE '$jmeno'");
 
-            echo('<p>Záznam byl úspěšně odstraněn.</p>');
+            echo('<p style="color:red;">Záznam byl úspěšně odstraněn.</p>');
         }
     ?>
 
