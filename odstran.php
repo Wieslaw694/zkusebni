@@ -10,7 +10,7 @@
 
     <p><a href="podlejmena.php">Podle jména</a></p>
     <p><a href="podleprijmeni.php">Podle příjmení</a></p>
-    <p><a href="podledatumu.php">Podle datumu</a></p>
+    <p><a href="podledatumu.php">Podle data narození</a></p>
     <p><a href="index.php">Hlavní stránka</a></p>
 </body>
 </html>
