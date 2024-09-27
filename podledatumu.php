@@ -14,7 +14,7 @@
         Db::connect('127.0.0.1', 'databaze_pojistencu', 'root', '');
         $datum = date("Y-m-d", strtotime($_POST['datum']));
         if ($_POST) {
-            Db::query("DELETE FROM pojistenci WHERE jmeno LIKE '$datum'");
+            Db::query("DELETE FROM pojistenci WHERE datum LIKE '$datum'");
 
             echo('<p>Záznam byl úspěšně odstraněn.</p>');
         }
